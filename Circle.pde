@@ -20,4 +20,17 @@ Circle () {
     ellipse(xPos, yPos, hPos, hPos);
     noFill();
   }
+  
+  void goUp() {
+    yPos --; 
+  }
+  void goDown() {
+    yPos ++; 
+  }
+  void goRight() {
+   xPos ++; 
+  }
+  void goLeft() {
+    xPos --; 
+  }
 }
